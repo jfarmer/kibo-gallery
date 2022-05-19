@@ -1,0 +1,36 @@
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+#current-image > img {
+  display: inline-block;
+  width: 100%;
+}
+
+#thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+#thumbnails img {
+  width: 100px;
+  flex: 1 0 0;
+}
+
+#thumbnails img.selected {
+  outline: 4px solid red;
+}
