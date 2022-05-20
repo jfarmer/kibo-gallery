@@ -21,7 +21,7 @@ h1 {
 #thumbnails {
   margin-top: 20px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: row;
   column-gap: 20px;
 }
