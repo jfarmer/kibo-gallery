@@ -1,3 +1,7 @@
+:root {
+  --main-padding: 20px;
+}
+
 html {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -5,6 +9,7 @@ html {
 main {
   max-width: 800px;
   margin: 0 auto;
+  padding: var(--main-padding);
 }
 
 h1 {
@@ -28,7 +33,7 @@ h1 {
 
 #thumbnails img {
   cursor: pointer;
-  width: 100px;
+  width: calc(25% - var(--main-padding)*2);
   flex: 1 0 0;
   transition: transform .1s ease-out;
 }
